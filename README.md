@@ -57,7 +57,7 @@ I divided the paragraph by putting an empty line between the sentence above and 
 Avoid using spaces or tabs at this time.<br>
 The implementation results are as follows.  
 
-### 3. 강조
+### 3. 강조 (Emphasis)  
 1. 강조에는 볼드체(굵게)와 이탤릭체(기울임체)를 이용하는 방식이 있다.
 2. 볼드와 이탤릭을 한번에 사용하는 방법도 있다.
         
@@ -72,23 +72,26 @@ The implementation results are as follows.
 *Italic*  
 ***Bold Italic***  
 
-### 4. 인용구
+### 4. 인용구 (Quotation)  
 1. 인용구를 표시하기 위해서는 /> 기호가 사용된다.
 2. />를 문장 앞에 배치하는 것에 따라 여러 문장이나 단락의 인용을 표시하거나 인용구 속에 인용구를 하나 더 표시하는 것이 가능하다.
+3. 인용구 안에 여러 강조 표현같은 것들도 사용 가능하다.
+
 
         >This is a quote.
         >
-        >이것은 인용문입니다.
+        >이것은 **인용문**입니다.
         >>This is a nested quote.
         >
-        >위는 중첩 인용문을 표시한 것입니다.
+        >-위는 중첩 인용문을 표시한 것입니다.
 아래에는 인용구를 표시하는 것에 관한 렌더링 결과이다.
 
 >This is a quote.
 >
->이것은 인용문입니다.
+>이것은 **인용문**입니다.
 >>This is a nested quote.  
 >
->위는 중첩 인용문을 표시한 것입니다.
+>-위는 중첩 인용문을 표시한 것입니다.  
 
-        
+### 5. 목록 (List)  
+
