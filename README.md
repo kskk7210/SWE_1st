@@ -42,14 +42,15 @@ Markdown이란 일반 텍스트 문서에 서식 요소를 추가하여 사용�
 
 ### 2. 단락 및 줄바꿈
 1. 단락의 경우 빈 줄(단락과 단락 사이 아무것도 쓰이지 않은 줄)을 사용하여 구분 지을 수 있다.
+2. 줄바꿈은 문장의 끝에 두개 이상의 공백을 입력하거나 문장 끝에 \<br\>를 입력해준다.
         
         I think this is a way to divide paragraphs. 
         
-        I divided the paragraph by putting an empty line between the sentence above and this sentence.
+        I divided the paragraph by putting an empty line between the sentence above and this sentence.  
         Avoid using spaces or tabs at this time.
 단락을 구분 지을 때는 공백이나 탭을 사용하지 않아야함에 주의하며 위 방식대로 렌더링하면 아래와 같은 결과를 얻게 된다.
 
 I think this is a way to divide paragraphs. 
 
-I divided the paragraph by putting an empty line between the sentence above and this sentence.
+I divided the paragraph by putting an empty line between the sentence above and this sentence.  
 Avoid using spaces or tabs at this time.
