@@ -61,11 +61,9 @@ The implementation results are as follows.
 1. 강조에는 볼드체(굵게)와 이탤릭체(기울임체)를 이용하는 방식이 있다.
 2. 볼드와 이탤릭을 한번에 사용하는 방법도 있다.
         
-        *을 몇번 사용하느냐에 따라 구분 지을 수 있다.
         볼드체(Bold)의 경우 **Bold** 이런 식으로 앞뒤에 두개씩 붙여준다
         이탤릭체(Italic)의 경우 *Italic* 이런 식으로 앞뒤에 하나씩 붙여준다.
-        두 강조방법을 한 번에 사용한다면
-        ***Bold Italic*** 과 같이 앞뒤로 세개를 붙여준다.
+        두 강조방법을 한 번에 사용한다면 ***Bold Italic*** 과 같이 앞뒤로 세개를 붙여준다.
 강조의 방식을 렌더링한 결과는 아래와 같다.
 
 **Bold**  
@@ -83,7 +81,7 @@ The implementation results are as follows.
         >이것은 **인용문**입니다.
         >>This is a nested quote.
         >
-        >-위는 중첩 인용문을 표시한 것입니다.
+        > -위는 중첩 인용문을 표시한 것입니다.
 아래에는 인용구를 표시하는 것에 관한 렌더링 결과이다.
 
 >This is a quote.
@@ -91,7 +89,7 @@ The implementation results are as follows.
 >이것은 **인용문**입니다.
 >>This is a nested quote.  
 >
->-위는 중첩 인용문을 표시한 것입니다.  
+> -위는 중첩 인용문을 표시한 것입니다.  
 
 ### 5. 목록 (List)  
 
