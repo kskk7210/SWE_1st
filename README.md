@@ -47,10 +47,12 @@ Markdown이란 일반 텍스트 문서에 서식 요소를 추가하여 사용�
         I think this is a way to divide paragraphs. 
         
         I divided the paragraph by putting an empty line between the sentence above and this sentence.  
-        Avoid using spaces or tabs at this time.
+        Avoid using spaces or tabs at this time.<br>
+        The implementation results are as follows.  
 단락을 구분 지을 때는 공백이나 탭을 사용하지 않아야함에 주의하며 위 방식대로 렌더링하면 아래와 같은 결과를 얻게 된다.
 
 I think this is a way to divide paragraphs. 
 
 I divided the paragraph by putting an empty line between the sentence above and this sentence.  
-Avoid using spaces or tabs at this time.
+Avoid using spaces or tabs at this time.<br>
+The implementation results are as follows.  
