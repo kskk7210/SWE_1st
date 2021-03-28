@@ -101,7 +101,7 @@ The implementation results are as follows.
         8. 5st 숫자는 8이지만 순서는 다섯번째
         
 
-2. /- (하이픈), * 이나 + 표시를 사용하여 목록을  표현할 수도 있다.
+2. \- (하이픈), * 이나 + 표시를 사용하여 목록을  표현할 수도 있다.
         
         - 목록을 나타낼 때 - 사용하는 방법
         * 목록을 나타낼 때 * 사용하는 방법
@@ -165,10 +165,25 @@ The implementation results are as follows.
 2. 링크 생성 
 
         링크를 만들기 위해서는 링크에 관한 텍스트를 대괄호 [] 로 묶고 바로 옆에 소괄호 () 로 묶은 URL을 쓴다.  
-        This is the link to [NAVER](https://www.naver.com/).
+        This is the link to [NAVER](https://www.naver.com/).  
+        URL이나 이메일 주소에 바로 연결하고 싶은 경우에는 <> 로 묶어준다.  
+        <https://www.naver.com/>
 아래 렌더링 결과에서 NAVER라는 글자를 통해 링크가 생성되었음을 알 수 있다.
 
 This is the link to [NAVER](https://www.naver.com/).
+<https://www.naver.com/>
 
 3. 이미지 
+- 이미지를 추가하려면 \! \[이미지이름\] \(이미지주소\) 혹은 \! \[이미지이름\] \(이미지링크\)의 형식을 따르면 된다.
+        
+        이미지 주소를 이용  
+        ![moodindigo](‪C:\Users\kus12\Desktop\moodindigo.jpg)  
+        이미지 링크를 이용
+        ![무드인디고](https://ww.namu.la/s/f0c0a360a89fb14570377408ef86300b8506ea23a981da0ac3ab1d89b4d15abce853b343a63bbddc78b9b06f57f708d374ab90e47cdb84cdc039aabc42935c055585268008d1d544c9a5cd8403743719fed964df035169d5260ce78535cbbf09631ac255a322a8022d7197d2c45f7265)
+        
+이미지 삽입 결과는 다음과 같다.
+
+![moodindigo](‪C:\Users\kus12\Desktop\moodindigo.jpg)  
+![무드인디고](https://ww.namu.la/s/f0c0a360a89fb14570377408ef86300b8506ea23a981da0ac3ab1d89b4d15abce853b343a63bbddc78b9b06f57f708d374ab90e47cdb84cdc039aabc42935c055585268008d1d544c9a5cd8403743719fed964df035169d5260ce78535cbbf09631ac255a322a8022d7197d2c45f7265)  
+
               
