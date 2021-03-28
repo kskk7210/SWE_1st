@@ -15,7 +15,7 @@ Markdown이란 일반 텍스트 문서에 서식 요소를 추가하여 사용�
 ### Markdown의 사용이유
 - 웹사이트나 문서, 이메일 등 **사용 범위가 넓다**.
 - 운영체제를 실행하는 모든 장치에서 Markdown 형식의 텍스트를 만들 수 있다는 점에서 **플랫폼에 독립적**이다.
-- Markdown 형식의 텍스트가 포함된 파일은 **거의 모든 프로그램을 사용**하여 열 수 있으며, 사용 중인 응용 프로그램이 **중지 되어도** 텍스트 편집이 가능한 응용프로그램을 사용하여 Markdown 형식의 **텍스트를 읽을 수 있다**.
+- Markdown 형식의 텍스트가 포함된 파일은 **거의 모든 프로그램을 사용**하여 열 수 있으며, 사용 중인 응용 프로그램이 **중지되어도** 텍스트 편집이 가능한 응용프로그램을 사용하여 Markdown 형식의 **텍스트를 읽을 수 있다**.
 - Reddit이나 GitHub 같은 웹사이트에서 Markdown을 지원하며 많은 웹기반 프로그램이 이를 지원하기에 **모든 곳에서 사용**할 수 있다.
 
 
@@ -35,8 +35,15 @@ Markdown이란 일반 텍스트 문서에 서식 요소를 추가하여 사용�
         # Header
         ## Header
         ### Header
-이런 식으로 입력하면 렌더링 결과 
+이런 식으로 입력하면 렌더링 결과 아래와 같아진다.
  # Header
  ## Header
  ### Header
 
+### 2. 단락 및 줄바꿈
+1. 단락의 경우 빈 줄(단락과 단락 사이 아무것도 쓰이지 않은 줄)을 사용하여 구분 지을 수 있다.
+        
+        I think this is a way to divide paragraphs. 
+        
+        I divided the paragraph by putting an empty line between the sentence above and this sentence.
+        Avoid using spaces or tabs at this time.
