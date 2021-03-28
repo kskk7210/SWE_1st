@@ -66,10 +66,27 @@ The implementation results are as follows.
         이탤릭체(Italic)의 경우 *Italic* 이런 식으로 앞뒤에 하나씩 붙여준다.
         두 강조방법을 한 번에 사용한다면
         ***Bold Italic*** 과 같이 앞뒤로 세개를 붙여준다.
-        
 강조의 방식을 렌더링한 결과는 아래와 같다.
 
-**Bold**
-*Italic*
-***Bold Italic***
+**Bold**  
+*Italic*  
+***Bold Italic***  
+
+### 4. 인용구
+1. 인용구를 표시하기 위해서는 /> 기호가 사용된다.
+2. />를 문장 앞에 배치하는 것에 따라 여러 문장이나 단락의 인용을 표시하거나 인용구 속에 인용구를 하나 더 표시하는 것이 가능하다.
+
+        >This is a quote.
+        >
+        >이것은 인용문입니다.
+        >>This is a nested quote.
+        >위는 중첩 인용문을 표시한 것입니다.
+아래에는 인용구를 표시하는 것에 관한 렌더링 결과이다.
+
+>This is a quote.
+>
+>이것은 인용문입니다.
+>>This is a nested quote.
+>위는 중첩 인용문을 표시한 것입니다.
+
         
