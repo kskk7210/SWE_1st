@@ -137,7 +137,7 @@ The implementation results are as follows.
 
 - 새로운 목록
  
-    -탭을 사용하여 중첩된 목록 생성  
+    - 탭을 사용하여 중첩된 목록 생성  
         
 - 그 다음 목록  
 
