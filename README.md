@@ -86,7 +86,7 @@ The implementation results are as follows.
 >This is a quote.
 >
 >이것은 인용문입니다.
->>This is a nested quote.
+>>This is a nested quote.  
 >위는 중첩 인용문을 표시한 것입니다.
 
         
