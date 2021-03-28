@@ -174,16 +174,15 @@ This is the link to [NAVER](https://www.naver.com/).
 <https://www.naver.com/>
 
 3. 이미지 
-- 이미지를 추가하려면 \! \[이미지이름\] \(이미지주소\) 혹은 \! \[이미지이름\] \(이미지링크\)의 형식을 따르면 된다.
+- 이미지를 추가하려면 \! \[이미지이름\] \(이미지링크\)의 형식을 따르면 된다.
         
-        이미지 주소를 이용  
-        ![moodindigo](‪C:\Users\kus12\Desktop\moodindigo.jpg)  
         이미지 링크를 이용
         ![무드인디고](https://ww.namu.la/s/f0c0a360a89fb14570377408ef86300b8506ea23a981da0ac3ab1d89b4d15abce853b343a63bbddc78b9b06f57f708d374ab90e47cdb84cdc039aabc42935c055585268008d1d544c9a5cd8403743719fed964df035169d5260ce78535cbbf09631ac255a322a8022d7197d2c45f7265)
         
 이미지 삽입 결과는 다음과 같다.
 
-![moodindigo](‪C:\Users\kus12\Desktop\moodindigo.jpg)  
 ![무드인디고](https://ww.namu.la/s/f0c0a360a89fb14570377408ef86300b8506ea23a981da0ac3ab1d89b4d15abce853b343a63bbddc78b9b06f57f708d374ab90e47cdb84cdc039aabc42935c055585268008d1d544c9a5cd8403743719fed964df035169d5260ce78535cbbf09631ac255a322a8022d7197d2c45f7265)  
+
+
 
               
