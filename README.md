@@ -27,6 +27,7 @@ Markdown이란 일반 텍스트 문서에 서식 요소를 추가하여 사용�
 5. 목록
 6. 코드블럭 및 링크, 이미지
 
+___
 ### 1. Header 작성
 
 1. \# 을 이용하여 작성할 수 있다.
@@ -40,6 +41,7 @@ Markdown이란 일반 텍스트 문서에 서식 요소를 추가하여 사용�
  ## Header
  ### Header
 
+___
 ### 2. 단락 및 줄바꿈
 1. 단락의 경우 빈 줄(단락과 단락 사이 아무것도 쓰이지 않은 줄)을 사용하여 구분 지을 수 있다.
 2. 줄바꿈은 문장의 끝에 두개 이상의 공백을 입력하거나 문장 끝에 \<br\>를 입력해준다.
@@ -57,6 +59,7 @@ I divided the paragraph by putting an empty line between the sentence above and 
 Avoid using spaces or tabs at this time.<br>
 The implementation results are as follows.  
 
+___
 ### 3. 강조 (Emphasis)  
 1. 강조에는 볼드체(굵게)와 이탤릭체(기울임체)를 이용하는 방식이 있다.
 2. 볼드와 이탤릭을 한번에 사용하는 방법도 있다.
@@ -70,6 +73,7 @@ The implementation results are as follows.
 *Italic*  
 ***Bold Italic***  
 
+___
 ### 4. 인용구 (Quotation)  
 1. 인용구를 표시하기 위해서는 > 기호가 사용된다.
 2. 문장 앞에 >  배치하는 것에 따라 여러 문장이나 단락의 인용을 표시하거나 인용구 속에 인용구를 하나 더 표시하는 것이 가능하다.
@@ -91,6 +95,7 @@ The implementation results are as follows.
 >
 > - 위는 중첩 인용문을 표시한 것입니다.  
 
+___
 ### 5. 목록 (List)  
 1. 숫자와 마침표를 사용하여 나타내는 방법의 경우 숫자는 꼭 1로 시작해야하지만 그 다음 숫자부터는 상관이 없다. 1로 시작한 이상 다음에 오는 숫자 상관없이 1, 2, 3, 4, ... 순서로 정렬된다.
 
@@ -151,6 +156,7 @@ The implementation results are as follows.
     
 - 인용구 생성 시에도 공백이 필요  
 
+___
 ### 6. 코드블럭 및 링크, 이미지
 1. 코드블럭 (code block) 생성 방법
 - 코드블럭을 생성하기 위해서는 따로 블럭으로 만들고자 하는 모든 코드의 줄 앞에 최소 공백 4개, 탭 한 개를 사용해야 한다. 
