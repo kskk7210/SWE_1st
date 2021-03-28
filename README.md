@@ -163,4 +163,12 @@ The implementation results are as follows.
         탭을 꼭 붙여주어야 한다
         
 2. 링크 생성 
+
+        링크를 만들기 위해서는 링크에 관한 텍스트를 대괄호 [] 로 묶고 바로 옆에 소괄호 () 로 묶은 URL을 쓴다.  
+        This is the link to [NAVER](https://www.naver.com/).
+아래 렌더링 결과에서 NAVER라는 글자를 통해 링크가 생성되었음을 알 수 있다.
+
+This is the link to [NAVER](https://www.naver.com/).
+
+3. 이미지 
               
